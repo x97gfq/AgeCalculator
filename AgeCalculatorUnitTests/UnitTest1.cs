@@ -12,7 +12,7 @@ namespace AgeCalculatorUnitTests
         private AgeCalculator ageCalc = new AgeCalculator(currentDateTime);
 
         /// <summary>
-        /// Test Age Calculation - this unit test checks that CalculateAge returns
+        /// Test Age Calculation - this unit test checks that Calcul`ateAge returns
         /// the correct age (20) for the parameters given.
         /// </summary>
         [TestMethod]
@@ -30,7 +30,7 @@ namespace AgeCalculatorUnitTests
 
         /// <summary>
         /// Test Age Calculation - this unit test checks that Calculate age THROWS AN EXCEPTION
-        /// when the date (string) is not in the parsable format.
+        /// when the date (string) is not parseable.
         /// </summary>
         [TestMethod]
         [ExpectedException(typeof(Exception), "Date of birth must be correct and in mm/dd/yyyy")]
